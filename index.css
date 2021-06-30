@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    background-image: url(images/waitx\ hall.jpg);
+    background-size: cover;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav-right {
+    background-color: rgba(51, 51, 51, 0.623);
+    overflow: hidden;
+    direction: ltr;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav-right a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: oblique;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav-right a:hover {
+    background-color: #ddd;
+    color: blue;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav-right a.active {
+    background-color: #6e5411e7;
+    color: white;
+}
+
+main {
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 240px;
+    padding-left: 240px;
+    margin-bottom: 0px;
+}
+
+.consti p {
+    font-family: g;
+    font-size: 22px;
+    color: rgb(0, 170, 99);
+    height: 100px;
+    width: 850px;
+    background-color: #241b0da2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 84px;
+    color: rgb(53, 228, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(223, 203, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(233, 230, 40);
+    font-family: none;
+    font-size: 16px;
+}
+
+footer {
+    height: 45px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
